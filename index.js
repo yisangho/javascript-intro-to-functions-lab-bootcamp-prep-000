@@ -15,5 +15,7 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  expect(string).toEqual('HELLO')
+  if(string == 'HELLO') {
+    return "YES INDEED!"
+  }
 }
